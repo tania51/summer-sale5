@@ -57,34 +57,14 @@ function cardProductClicked(product) {
          })
     }
 
-    
-
-    //practice ends
-
-
-    
-    // coupon code use
-    // const couponInput = document.getElementById('coupon-input-field');
-    // const couponInputValue = couponInput.value;
-    
-    
-
-    // coupon button id get
-    
-
-
-
-    
-
+ 
     // purchase button disabled attribute remove
     const purchaseId = document.getElementById('purchase');
     if(price > 0) {
         purchaseId.removeAttribute('disabled');
     }
     
-
-    
-    
+   
 
 }
 
